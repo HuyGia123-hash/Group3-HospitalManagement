@@ -1,0 +1,30 @@
+Connected to MongoDB
+Logged-in Doctor User: {
+  "_id": "69be3776fb9976f850a3a41f",
+  "user": "doctor_nt_1",
+  "name": "Ngô Văn Phúc",
+  "email": "doctor_nt1@gmail.com",
+  "password": "123456",
+  "role": "doctor",
+  "department": "Nội tiết",
+  "experience": "18 năm kinh nghiệm trong chẩn đoán và điều trị các bệnh nội tiết như tiểu đường, rối loạn hormone.",
+  "job_description": "Chăm sóc và điều trị chuyên sâu các bệnh lý nội tiết mãn tính.",
+  "height_cm": 170,
+  "weight_kg": 69,
+  "age": 46,
+  "gender": "Nam",
+  "dob": "1978-06-12",
+  "address": "Hà Nội",
+  "cccd": "111111120",
+  "counter": "",
+  "__v": 0
+}
+Searching for reviews with bac_si: "Ngô Văn Phúc" or doctorEmail: "doctor_nt1@gmail.com"
+Found 10 reviews for this doctor.
+Sample Review: {
+  "_id": "69a78d58ab6d554ea2654b5e",
+  "bac_si": "Ngô Văn Phúc",
+  "nhom": "Nội tiết",
+  "sao": 5,
+  "binh_luan": "Bác sĩ có kiến thức chuyên môn cực kỳ vững, trị tiểu đường rất hiệu quả."
+}

@@ -1,0 +1,105 @@
+:root {
+    --hospital-primary: #3b82f6;
+    --hospital-light: #eaf4ff;
+    --hospital-soft: #f5faff;
+    --hospital-border: #dbeafe;
+    --hospital-text: #1e3a8a;
+    --hospital-white: #ffffff;
+}
+
+body {
+    background: linear-gradient(180deg, var(--hospital-soft), var(--hospital-white));
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.card-hospital {
+    background: var(--hospital-white);
+    border: 1px solid var(--hospital-border);
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.hospital-title {
+    color: var(--hospital-text);
+    border-bottom: 4px solid var(--hospital-border);
+}
+
+.hospital-input {
+    background: var(--hospital-light);
+    border: 1px solid var(--hospital-border);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.hospital-input:focus {
+    outline: none;
+    border-color: var(--hospital-primary);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.btn-hospital {
+    background: var(--hospital-primary);
+    color: white;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-hospital:hover {
+    background: #2563eb;
+}
+
+
+.table-hospital {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-hospital th {
+    background: var(--hospital-light);
+    color: var(--hospital-text);
+    padding: 12px;
+    text-align: left;
+}
+
+.table-hospital td {
+    padding: 12px;
+    border-top: 1px solid var(--hospital-border);
+}
+
+.table-hospital tr:hover {
+    background: #f0f7ff;
+}
+
+.search-dropdown {
+    background: white;
+    border: 1px solid var(--hospital-border);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.search-dropdown li:hover {
+    background: var(--hospital-light);
+}
+
+.total-bar {
+    background: var(--hospital-primary);
+    color: white;
+    font-weight: bold;
+}
+
+.save-btn {
+    background: #22c55e;
+    color: white;
+    border-radius: 30px;
+    padding: 18px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 10px 30px rgba(34, 197, 94, 0.35);
+}
+
+.save-btn:hover {
+    background: #16a34a;
+}

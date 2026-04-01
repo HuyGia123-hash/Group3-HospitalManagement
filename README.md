@@ -22,12 +22,12 @@ Steps:
 
 1.Download the source code:
 Type
-  git clone <your-repo-url> ->
-  cd hospital ->
+  git clone <your-repo-url> 
+  cd hospital 
 Backend settings:
-  cd backend -> 
-  install npm ->
-  start npm ->
+  cd backend 
+  install npm 
+  start npm 
 Server will run at: http://localhost:5000
 
 Frontend settings:
